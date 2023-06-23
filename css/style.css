@@ -1,0 +1,26 @@
+/* UTILITIES */
+
+
+
+
+
+
+/* ---------   NAV ---------- */
+.bell{
+    color: rgb(255, 143, 0);
+}
+
+.img-logo{
+    max-width: 50px;
+}
+
+.btn-secondary-personal{
+    color: #fff;
+    background-color: #ffffff;
+    border-color: #6c757d;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+}
