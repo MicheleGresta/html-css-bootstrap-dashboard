@@ -20,11 +20,12 @@
         <div class="container-fluid py-2 px-3">
             <div class="row align-items-center">
                 <div class="nav-logo px-1">
-                    <img class="d-none d-md-inline-block" src="./img/logo.svg" alt="">                    
+                    <img class="d-none d-md-inline-block" src="./img/logo.svg" alt="">
                     <img class="img-logo d-md-none" src="./img/mobile-logo.png" alt="">
                 </div>
                 <form class="d-flex flex-grow-1 px-2" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Prova a cercare: Lezioni di Laravel"
+                        aria-label="Search">
                 </form>
                 <div class="nav-buttons d-none d-md-flex">
                     <div class="burger-icon px-3">
@@ -38,18 +39,94 @@
                     </div>
                 </div>
                 <div class="dropdown">
-                    <button class="btn btn-secondary-personal bell-bg" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="btn btn-secondary-personal bell-bg" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
                         <i class="fa-solid fa-bell bell"></i>
                     </button>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                  </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <!--              MAIN                -->
+
+    <main>
+        <div class="d-flex">
+            <!-- --- SIDE BAR --- -->
+
+            <div class="side-bar">
+                <div class="box-side">
+                    <div class="group-menu">
+                        <ul>
+                            <li><i class="fa-solid fa-house"></i></li>
+                            <li><i class="fa-solid fa-chart-simple"></i></li>
+                            <li><i class="fa-solid fa-signal"></i> </li>
+                        </ul>
+                        <ul class="to-hide">
+                            <li>
+                                <div>Home</div>
+                            </li>
+                            <li>
+                                <div>Stats</div>
+                            </li>
+                            <li>
+                                <div>Signals</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="settings-menu">
+                    <div class="d-flex">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="to-hide">Admin</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MAIN -->
+
+            <div class="container-fluid">
+                <div class="row bg-primary color-white py-3 gy-3">
+                    <div class="col-12 col-md-6">
+                        <div class="title d-flex align-items-end">
+                            <h1>Boolean</h1>
+                            <h5><span class="badge-mod bg-secondary-mod mx-1">Piano blaze</span></h5>
+                        </div>
+                        <div class="badges d-flex align-items-center ">
+                            <h5><span class="badge-mod bg-secondary-mod mx-1">3 app</span></h5>
+                            <div><i class="fa-solid fa-angles-right px-1"></i></div>
+                            <h5><span class="badge-mod bg-secondary-mod mx-1 d-block d-lg-none">+</span></h5>
+                            <h5><span class="badge-mod bg-secondary-mod mx-1 d-none d-lg-block">Boolean mobile app</span></h5>
+                            <h5><span class="badge-mod bg-secondary-mod mx-1 d-none d-lg-block">Boolean mobile app</span></h5>
+                            <h5><span class="badge-mod bg-secondary-mod mx-1 d-none d-lg-block">Boolean mobile app</span></h5>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h5>Studenti online negli ultimi 30 minuti</h5>
+                        <h3>125</h3>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="new-stud d-flex align-items-center">
+                            <h5 class="">Nuovo Studente</h5>
+                            <button type="button" class="btn btn-outline-light">+</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </main>
 
 
 
@@ -74,7 +151,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 
 </body>
 
