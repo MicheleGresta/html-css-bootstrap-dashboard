@@ -27,6 +27,8 @@
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1000;
+    background-color: white;
 }
 
 
@@ -34,14 +36,17 @@
 /* MAIN */
 
 main{
-    margin-top: 66px;
+    margin-top: 54px;
+    overflow: hidden;
 }
+
+/* SIDE NAV BAR */
 
 .side-bar{
     background-color: rgb(5, 30, 52);
     max-width: 150px;
-    height: 100%;
-    height: calc(100vh - 66px);
+    min-height: 100vh;
+    min-height: calc(100vh - 54px);
 }
 
 .group-menu{
@@ -75,6 +80,8 @@ main{
     display: none;
 }
 
+/* main page */
+
 .badge-mod {
     display: inline-block;
     padding: 0.25em 0.5em;
@@ -96,15 +103,121 @@ main{
 }
 
 
+.box-card{
+    margin-top: 2rem;
+    border: 2px solid #d5d7d8;
+    border-radius: 10px;
 
+}
 
+.card-name{
+    background-color: #eff0f0;
+    padding: .5rem 1rem;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}
 
+.icon-classes{
+    padding: .5rem;
+    background-color: #f26551;
+    border-radius: 50%;
+    color: white;
+}
 
+.down-line{
+    border-bottom: 1px solid #d5d7d8;
+}
 
+/* badge manuale */
+.badge-form{
+    border-radius: 15px;
+    padding: 3px 6px;
+    color: white;
+    font-size: .7rem;
+}
 
+.badge-done{
+    background-color: green;
+}
+.badge-process{
+    background-color: rgb(255, 200, 0);
+}
+.badge-failed{
+    background-color: red;
+}
 
+/* ------ */
 
+.action-box{
+    padding: .5rem;
+    gap: .5rem;
+}
+.action-box a{
+    text-decoration: none;
+    color: #6c757d;
+}
+.action-item{
+    border: 1px solid #d5d7d8;
+    padding: .5rem;
+    border-radius: 5px;
+}
 
+.weight-text{
+    font-weight: 500;
+}
+
+.button-mod {
+    appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-weight: 500;
+    font-stretch: ;
+    font-size: 1rem;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: none;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+}
+
+.border-rounded{
+    border: 1px solid #d5d7d8;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.graph-card h6{
+    padding-bottom: .5rem;
+}
+
+.graph-card a h6{
+    margin-top: 1rem;
+}
 
 
 
