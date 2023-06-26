@@ -45,8 +45,8 @@ main{
 .side-bar{
     background-color: rgb(5, 30, 52);
     max-width: 150px;
-    min-height: 100vh;
     min-height: calc(100vh - 54px);
+    margin-top:12px;
 }
 
 .group-menu{
@@ -79,6 +79,41 @@ main{
 .to-hide{
     display: none;
 }
+
+.nav-link-mod {
+    display: block;
+    padding: .5rem 0;
+}
+
+
+/* SIDE BAR AGGIUSTATA */
+
+.side-bar a{
+    color: white;
+    text-decoration: none;
+}
+
+.side-bar li,
+.side-bar > .nav-item{
+    padding-left: .5rem;
+}
+
+.side-bar li:hover,
+.side-bar > .nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.554);
+}
+
+.side-bar li:hover  a,
+.side-bar > .nav-item:hover a{
+    color: black;
+}
+
+
+
+
+
+
+
 
 /* main page */
 
@@ -230,5 +265,12 @@ main{
 @media screen and (min-width:768px){
     .to-hide{
         display: block;
+    }
+
+    .side-bar{
+        background-color: rgb(5, 30, 52);
+        max-width: 150px;
+        min-height: calc(100vh - 54px);
+        margin-top:0;
     }
 }
